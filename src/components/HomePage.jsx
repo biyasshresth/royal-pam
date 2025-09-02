@@ -9,7 +9,7 @@ import charmingHouse from "../assets/Suburban.png";
 
 import OurService from "./OurService";
 import Partners from "./Partners";
-import Faq from "./faq";
+import Faq from "./Faq";
 import Footer from "./Footer";
 import RotatingBanner from "./RotatingBanner";
 const useInView = (options = {}) => {
