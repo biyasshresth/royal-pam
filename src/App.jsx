@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/home";
+import Home from "./components/HomePage";
 import Header from "./components/header";
 import "./App.css";
 import Buy from "./components/Buy";
@@ -59,7 +59,7 @@ const App = () => {
         <Route path="/newsBlogs" element={<NewsBlogs />} />
         <Route path="/downTown" element={<DownTown />} />
         <Route path="/downtownplot" element={<DowntownPlot />} />
-         <Route path="/OurTeam" element={<OurTeam />} />
+        <Route path="/OurTeam" element={<OurTeam />} />
       </Routes>
     </Router>
   );
