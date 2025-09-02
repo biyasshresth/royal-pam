@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/HomePage";
 import Header from "./components/header";
 import "./App.css";
-import Buy from "./components/Buy";
+import BuyPage from "./components/BuyPage";
 import Sell from "./components/Sell";
 import Rent from "./components/Rent";
 import Contact from "./components/Contact";
@@ -20,7 +20,7 @@ import TermsPolicy from "./components/TermsPolicy";
 import Privacy from "./components/Privacy";
 import DataDeletion from "./components/DataDeletion";
 import AboutUs from "./components/AboutUs";
-import Faq from "./components/faq";
+import Faq from "./components/Faq";
 import NewsBlogs from "./components/NewsBlogs";
 import DowntownPlot from "./components/Newsblogs/DowntownPlots";
 import DownTown from "./components/Newsblogs/DownTown";
@@ -34,7 +34,7 @@ const App = () => {
       <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/buy" element={<Buy />} />
+        <Route path="/BuyPage" element={<BuyPage />} />
         <Route path="/Sell" element={<Sell />} />
         <Route path="/Rent" element={<Rent />} />
         <Route path="/Contact" element={<Contact />} />

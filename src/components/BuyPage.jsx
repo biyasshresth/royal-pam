@@ -1,7 +1,7 @@
 import React from "react";
 import LandMark from "../assets/LandMark.png";
 
-export default function Buy() {
+export default function BuyPage() {
   return (
     <section className="bg-[#f02b5c] min-h-screen flex items-center justify-center px-6">
       <div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">
