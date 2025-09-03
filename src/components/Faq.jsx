@@ -7,7 +7,7 @@ const Faq = () => {
   const [query, setQuery] = useState("");
   const [openId, setOpenId] = useState(null);
 
-  const faqs = [
+  const Faqs = [
     {
       id: 1,
       q: "What are your business hours?",
@@ -49,13 +49,13 @@ const Faq = () => {
   const filteredFaqs = useMemo(() => {
     const ql = query.trim().toLowerCase();
     if (!ql) return faqs;
-    return faqs.filter(
+    return Faqs.filter(
       (f) =>
         f.q.toLowerCase().includes(ql) ||
         f.a.toLowerCase().includes(ql) ||
         f.tags.some((t) => t.toLowerCase().includes(ql))
     );
-  }, [query, faqs]);
+  }, [query, Faqs]);
 
   return (
     <section className="relative min-h-screen overflow-hidden bg-orange-50">
