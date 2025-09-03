@@ -38,8 +38,8 @@ const App = () => {
         <Route path="/Sell" element={<Sell />} />
         <Route path="/Rent" element={<Rent />} />
         <Route path="/Contact" element={<Contact />} />
-        <Route path="/signin" element={<SignIn />} />
-        <Route path="/faq" element={<Faq />} />
+        <Route path="/Signin" element={<SignIn />} />
+        <Route path="/Faq" element={<Faq />} />
         <Route
           path="/Login"
           element={<LogIn setIsLoggedIn={setIsLoggedIn} />}
@@ -56,9 +56,9 @@ const App = () => {
         <Route path="/Privacy" element={<Privacy />} />
         <Route path="/DataDeletion" element={<DataDeletion />} />
         <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/newsBlogs" element={<NewsBlogs />} />
-        <Route path="/downTown" element={<DownTown />} />
-        <Route path="/downtownplot" element={<DowntownPlot />} />
+        <Route path="/NewsBlogs" element={<NewsBlogs />} />
+        <Route path="/DownTown" element={<DownTown />} />
+        <Route path="/Downtownplot" element={<DowntownPlot />} />
         <Route path="/OurTeam" element={<OurTeam />} />
       </Routes>
     </Router>
