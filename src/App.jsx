@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/HomePage";
+import HomePage from "./components/HomePage";
 import Header from "./components/header";
 import "./App.css";
 import BuyPage from "./components/BuyPage";
@@ -33,7 +33,7 @@ const App = () => {
     <Router>
       <Header isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/BuyPage" element={<BuyPage />} />
         <Route path="/Sell" element={<Sell />} />
         <Route path="/Rent" element={<Rent />} />

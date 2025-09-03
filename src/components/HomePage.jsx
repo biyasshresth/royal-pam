@@ -6,7 +6,6 @@ import pentHouse from "../assets/pentHouse.png";
 import cozy from "../assets/cozy.png";
 import waterfrontVilla from "../assets/WaterFront.jpg";
 import charmingHouse from "../assets/Suburban.png";
-
 import OurService from "./OurService";
 import Partners from "./Partners";
 import Faq from "./Faq";
@@ -107,7 +106,7 @@ const HeroSection = ({ subtitle }) => {
   );
 };
 
-const Home = () => {
+const HomePage = () => {
   // Typing effect
   const [typedText, setTypedText] = useState("");
   const fullText =
@@ -247,4 +246,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
